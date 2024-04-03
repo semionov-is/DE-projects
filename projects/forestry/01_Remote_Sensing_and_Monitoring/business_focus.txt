@@ -1,0 +1,17 @@
+Business-owner point of view:
+Here are some key areas to monitor using remote sensing:
+1. Forest health:
++ Early detection of pest and disease outbreaks: 
+We need to identify potential threats to our forests as early as possible to minimize damage and implement timely interventions. Remote sensing data can help us detect subtle changes in tree health before they become visible on the ground.
++ Monitoring tree growth and biomass: 
+We want to track the growth and development of our forests to optimize timber harvesting schedules and ensure sustainable forest management practices. Remote sensing can provide accurate estimates of tree volume and biomass over large areas.
++ Assessing forest damage from storms and other disturbances: 
+We need to quickly assess the extent and severity of damage after storms or other events to prioritize salvage logging and restoration efforts. Remote sensing data can be rapidly acquired and analyzed to provide damage maps.
+
+2. Forest inventory and management:
++ Mapping tree species composition: 
+Knowing the distribution of different tree species is crucial for planning harvesting operations and managing biodiversity. Remote sensing can help us create detailed maps of tree species composition across our forest holdings.
++ Monitoring changes in forest cover and land use: 
+We need to track deforestation, afforestation, and other land-use changes to ensure sustainable forest management and comply with regulations. Remote sensing data can provide accurate and up-to-date information on forest cover changes.
++ Optimizing harvesting operations: 
+We want to plan and execute harvesting operations efficiently and cost-effectively. Remote sensing data can be used to create detailed maps of terrain, forest density, and access roads to optimize harvesting logistics.
