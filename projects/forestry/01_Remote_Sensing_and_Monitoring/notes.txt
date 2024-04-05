@@ -1,0 +1,10 @@
+Some notes:
+1. Geolocalised task - to monitor a specific place. So all our data must be "layered" - different data sets of the same place, like layers of a cake =)
+2. The types of data processed and the data formats depend on the technological solutions used to obtain the information from the site (but ALL must be GEOLOCATED!):
+Satellite Imagery; Weather data; Soil data; Forest Inventory Databases; Ground-Based: Soil sensors data, Video/Audio data, Meteo data;
+Field collection: Video/Audio data, Photos, LiDAR data, Soil probes data, Meteo data.
+3. It is useful to introduce levels of desired data granularity. For example: our lot, lots adjacent to ours (neighbours), region, country.  
+Depending on the level, the frequency with which the data is updated and the level of detail will be different. 
+The data for our own lot will be the most detailed and the most frequently updated. However, you need to consider the cost of obtaining the data. Ideally, data should be detailed, free and real-time =)
+Data for neighbouring plots will be less detailed, as we are only interested in the factors that affect our plot. The finer the scale, the less detailed data is needed.
+4. The same data can be obtained in different ways. For example, meteorological data can be obtained from a satellite or from a ground-based weather station. As usual, we consider the cost of obtaining the data, which consists of the cost of implementing the solution and the cost of supporting it throughout its lifecycle. Sometimes a solution that is cheap at the outset can become more expensive over time, while a seemingly expensive solution can prove cheaper over the long term.
