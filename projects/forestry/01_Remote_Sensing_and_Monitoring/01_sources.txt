@@ -1,0 +1,9 @@
+I'll try to find and/or emulate data from these types of related data sources:
+1. Satellite Imagery - real
+2. Weather Data - real
+3. Soil data - real
+4. LiDAR data - real
+5. Forest Inventory Database - probably I will make one
+6. Ground-Based Sensor Network - soil and maybe meteo, emulated
+7. Audio/Video streams - some records of various sounds and short video of animals and people
+8. Field collected data - real, some pictures and videos
