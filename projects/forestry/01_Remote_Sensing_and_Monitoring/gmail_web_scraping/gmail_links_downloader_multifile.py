@@ -186,7 +186,7 @@ def find_download_link(url):
     order_id = url.split('/')[-1].split('?')[0]  # Extract order ID
     # Construct API URL
     api_url = f"{url.split('/')[0]}//{url.split('/')[2]}/lataukset/api/spatialdatafilesorders/{order_id}"
-    response = requests.get(api_url)
+    response = requests.get(api_url, timeout=5)
 
     if response.status_code == 200:
         data = json.loads(response.content)
@@ -210,7 +210,7 @@ def find_download_link(url):
 
 # Function to download a laz file
 def download_file(url, folder_name):
-    response = requests.get(url, stream=True)
+    response = requests.get(url, stream=True, timeout=5)
     if response.status_code == 200:
         filename = url.split('/')[-1]
         file_path = os.path.join(folder_name, filename)
