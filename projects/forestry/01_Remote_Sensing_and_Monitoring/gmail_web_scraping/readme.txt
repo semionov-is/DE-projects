@@ -12,7 +12,7 @@ a hiddent API endpoint that allows me to extract the download link directly, byp
 
 After analyzing the data structure, I added functionality to scrap and download metadata. Since the files are from a specific site, 
 the structure was hardcoded into the Python script. Essentially, the script connects to Gmail, searches for unread emails from the recipient, 
-clicks on the links, and downloads the files. 
+clicks on the links, and downloads the files. And yes, it does support orders with multiple files.
 
 What I have learnt:
 Working with APIs: This project provides hands-on experience with interacting with real-world APIs, including authentication, 
@@ -26,7 +26,7 @@ reliable data pipelines in real-world scenarios.
 
 It's not perfect, but I have other things to do =) So, potential enhancements:
 Logging: Incorporating a logging mechanism would allow me to track the script's execution, record errors, and facilitate debugging.
-Configuration: Moving sensitive information like API keys and email addresses to a configuration file would improve security and make
+Configuration: Moving sensitive information like email addresses to a configuration file would improve security and make
 the script more adaptable.
 Scheduling: Integrating with a scheduling tool like cron would enable automatic execution of the script at regular intervals. Or we can 
 wrap it into DAG and use Apache Airflow.
